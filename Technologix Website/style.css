@@ -1,0 +1,336 @@
+nav.navbar{
+    background-color: black;
+}
+
+nav li {
+    margin-left: 15px;
+    padding: 0 10px;
+}
+
+nav li.active{
+    background-color: white;
+}
+
+nav li a.active{
+    color: black;
+}
+
+nav li a.contact{
+    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li a{
+    color: white;
+}
+
+nav li:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+nav li a:hover{
+    color: black;
+}
+
+a#dropdownId:hover{
+    color: black;
+}
+
+nav a.navbar-brand{
+    color: white;
+    transition: 0.5s;
+}
+
+nav a.navbar-brand:hover{
+    color: white;
+    transition: 0.5s;
+    transform: rotate(360deg);
+    cursor:pointer;
+}
+
+nav ul li div.dropdown-menu {
+    background-color: black;
+}
+
+nav ul li div a.dropdown-item{
+    color: white;
+}
+
+nav ul li div a.dropdown-item:hover{
+    color: black;
+}
+
+/* toggler button bootstrap */
+
+.custom-toggler.navbar-toggler { 
+    border-color: white; 
+} 
+  
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+
+header{
+    background-image: url(/Images/mobile.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+
+header button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 2px;
+}
+
+header button.btn1{
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+header button.btn1:hover{
+    background-color: rgb(5, 197, 255);
+    color: black;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+header h1{
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(48, 47, 47);
+    font-weight: bold;
+}
+
+header h2{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: rgb(65,65,65);
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+header p{
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+header div.c1{
+   float: right;
+   padding-top: 50px;
+}
+
+div.c2{
+    background-color: rgb(43,149,251);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+div.c2 h2{
+    font-size: 2.6em;
+}
+
+div.c2 p{
+    font-size: 1.2em;
+}
+
+div.c3 img{
+    padding-top: 80px;
+}
+
+div.c3 p{
+    color:grey;
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+div.c3 h3{
+    padding-top: 145px;
+    font-size: 2em;
+}
+
+ div.c3 .r2{
+    margin-top: 80px;
+    background-color: rgb(43,149,251);
+    padding-bottom: 50px;
+ }
+
+ div.c3 .r3{
+    margin-top: 30px;
+    background-color: white;
+ }
+
+ div.c3 .r4{
+    margin-top: 80px;
+    background-color: rgb(43,149,251);
+ }
+
+div.c4{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: white;
+}
+
+div.c4{
+    background-color: rgb(43,149,251);
+}
+
+div.c4 h2{
+    font-size: 2.6em;
+}
+
+div.c4 p{
+    font-size: 1.1em;
+}
+
+div.c4 img{
+    padding-top: 20px;
+    width: 100px;
+    height: 120px;
+}
+
+div.c4 h4{
+    color: rgb(24, 134, 238);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div.c4 .r2 h4{
+    padding-top: 20px;
+}
+
+div.c4 .r2 p{
+    color: black; 
+}
+
+div.c4 .column{
+    -webkit-box-shadow: 5px 9px 16px 2px rgba(0,0,0,0.41);
+    -moz-box-shadow: 5px 9px 16px 2px rgba(0,0,0,0.41);
+    box-shadow: 5px 9px 16px 2px rgba(0,0,0,0.41);
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+div.c5{
+    margin-top: 50px;
+}
+
+div.c5 h4{
+    color: rgb(24, 134, 238);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+div.c5 .r2 .columns{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+div.c5 .r2{
+    background-color: rgb(24, 134, 238);
+    color: white;
+}
+
+div.c5 .r2 h3{
+    padding-top: 35px;
+    font-weight: normal;
+    color: white;
+    font-size: 2.6em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div.c5 .r2 p{
+    font-weight: normal;
+    color: white;
+    font-size: 2em;
+}
+
+div.c6{
+    margin-top: 50px;
+}
+
+div.c6 h4{
+    color: rgb(24, 134, 238);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+div.c6 h3{
+    margin-top: 45px;
+}
+
+div.c7{
+    background-color: black;
+    margin-top: 70px;
+}
+
+div.c7 h1{
+    font-weight: bold;
+    font-size: 2.6em;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+div.c7 .r1{
+    padding-top: 20px;
+}
+
+div.c7 .r2{
+    padding-top: 15px;
+}
+
+div.c7 ::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+div.c7 button.mybytton{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 1.1em;
+}
+
+div.c7 button.mybytton:hover{
+    background-color: rgb(94, 250, 3);
+    color: black;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+div.c8{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div.c8 .logo {
+    margin-top: 7px;
+    height: 35px;
+    width: 35px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.c8 .logo:hover{
+    text-decoration: none;
+    background-color:rgb(24, 134, 238);
+    color: white;
+    transition: 0.7s ease-in;
+}
