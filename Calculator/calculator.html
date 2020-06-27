@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        .mytable {
+            border: 1px solid black;
+        }
+
+        .mytable td{
+            padding: 0px; 
+            margin: 0px;
+        }
+
+        .inptext{
+            width: 242px;
+            margin-top: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .container2 table{
+            text-align: center;
+        }
+
+        button{
+            background-color: white;
+            width: 60px;
+            height: 80px;
+            color: black;
+            border: 1px solid black;
+            border-radius: 0px;
+        }
+
+        button h5{
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .btnplus{
+            background-color: white;
+            width: 60px;
+            height: 160px;
+            color: black;
+            border: 1px solid black;
+            border-radius: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container container2">
+            <input class="inptext" type="text" name="" id="">
+            <table class="mytable">
+                <tr>
+                    <td>
+                        <button >%</button>
+                    </td>
+    
+                    <td>
+                        <button><h5>√</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>x<sup>2</sup></h5></button>
+                    </td>
+    
+                    <td>
+                        <button><p><b>⌫</b></p></button>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <button id="btnseven" onclick="getChar('7')"><h5>7</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>8</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>9</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>x</h5></button>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <button><h5>4</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>5</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>5</h5></button>
+                    </td>
+                    
+                    <td>
+                        <button><h5><b>-</b></h5></button>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <button><h5>1</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>2</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>3</h5></button>
+                    </td>
+                    
+                    <td rowspan="2">
+                        <button class="btnplus"><h5><b>+</b></h5></button>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <button><h5>0</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5>.</h5></button>
+                    </td>
+    
+                    <td>
+                        <button><h5><b>=</b></h5></button>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+     
+    </div>
+  
+</body>
+</html>
