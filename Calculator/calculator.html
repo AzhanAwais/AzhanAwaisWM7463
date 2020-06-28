@@ -18,13 +18,22 @@
 
         .inptext{
             width: 242px;
-            margin-top: 50px;
+            margin-top: 15px;
             padding-top: 20px;
+            margin-left: 15px;
             padding-bottom: 20px;
+            font-weight: bold;
+            font-size: medium;
+            border: 2px solid;
+        }
+
+        .container2 {
+            margin-top: 1px;
         }
 
         .container2 table{
             text-align: center;
+
         }
 
         button{
@@ -50,96 +59,105 @@
             border-radius: 0px;
         }
 
+        .heading{
+            margin-left: 35px;
+        }
+
+        body{
+            background-color: cornflowerblue;
+        }
     </style>
 </head>
+
 <body>
-    <div class="container">
+    <div class="container c1">
+        <h1 class="heading">Calculator</h1>
+        <input class="inptext" type="text" name="" id="textfield">
         <div class="container container2">
-            <input class="inptext" type="text" name="" id="">
             <table class="mytable">
                 <tr>
                     <td>
-                        <button >%</button>
+                        <button onclick="clears()"><h5>C</h5></button>
                     </td>
     
                     <td>
-                        <button><h5>√</h5></button>
+                        <button onclick="calculateRoot()"><h5>√</h5></button>
                     </td>
     
                     <td>
-                        <button><h5>x<sup>2</sup></h5></button>
+                        <button onclick="calSquare()"><h5>x<sup>2</sup></h5></button>
                     </td>
     
                     <td>
-                        <button><p><b>⌫</b></p></button>
-                    </td>
-                </tr>
-    
-                <tr>
-                    <td>
-                        <button id="btnseven" onclick="getChar('7')"><h5>7</h5></button>
-                    </td>
-    
-                    <td>
-                        <button><h5>8</h5></button>
-                    </td>
-    
-                    <td>
-                        <button><h5>9</h5></button>
-                    </td>
-    
-                    <td>
-                        <button><h5>x</h5></button>
+                        <button onclick="RemoveChar()"><p><b>⌫</b></p></button>
                     </td>
                 </tr>
     
                 <tr>
                     <td>
-                        <button><h5>4</h5></button>
+                        <button id="btnseven" onclick="setTextFiledValue('7')"><h5>7</h5></button>
                     </td>
     
                     <td>
-                        <button><h5>5</h5></button>
+                        <button onclick="setTextFiledValue('8')"><h5>8</h5></button>
                     </td>
     
                     <td>
-                        <button><h5>5</h5></button>
+                        <button onclick="setTextFiledValue('9')"><h5>9</h5></button>
+                    </td>
+    
+                    <td>
+                        <button onclick="setTextFiledValue('*')"><h5>x</h5></button>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <button onclick="setTextFiledValue('4')"><h5>4</h5></button>
+                    </td>
+    
+                    <td>
+                        <button onclick="setTextFiledValue('5')"><h5>5</h5></button>
+                    </td>
+    
+                    <td>
+                        <button onclick="setTextFiledValue('6')"><h5>6</h5></button>
                     </td>
                     
                     <td>
-                        <button><h5><b>-</b></h5></button>
+                        <button onclick="setTextFiledValue('-')"><h5><b>-</b></h5></button>
                     </td>
                 </tr>
     
                 <tr>
                     <td>
-                        <button><h5>1</h5></button>
+                        <button onclick="setTextFiledValue('1')"><h5>1</h5></button>
                     </td>
     
                     <td>
-                        <button><h5>2</h5></button>
+                        <button onclick="setTextFiledValue('2')"><h5>2</h5></button>
                     </td>
     
                     <td>
-                        <button><h5>3</h5></button>
+                        <button onclick="setTextFiledValue('3')"><h5>3</h5></button>
                     </td>
                     
                     <td rowspan="2">
-                        <button class="btnplus"><h5><b>+</b></h5></button>
+                        <button class="btnplus" onclick="setTextFiledValue('+')"><h5><b>+</b></h5></button>
                     </td>
                 </tr>
     
                 <tr>
                     <td>
-                        <button><h5>0</h5></button>
+                        <button onclick="setTextFiledValue('0')"><h5>0</h5></button>
                     </td>
     
                     <td>
-                        <button><h5>.</h5></button>
+                        <button onclick="setTextFiledValue('.')"><h5>.</h5></button>
                     </td>
     
                     <td>
-                        <button><h5><b>=</b></h5></button>
+                        <button onclick=" calculateEquation()"><h5><b>=</b></h5></button>
                     </td>
                     
                 </tr>
@@ -147,6 +165,6 @@
         </div>
      
     </div>
-  
+<script src="calculator.js"></script>
 </body>
 </html>
