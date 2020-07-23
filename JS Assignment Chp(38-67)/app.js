@@ -372,3 +372,105 @@ function callAlert()
 //     count--;
 //     h1.innerHTML=count;
 // }
+
+
+
+
+
+// Chapter 49-52
+
+//Task # 01
+
+// function showData()
+// {
+//     var name=document.getElementById('name').value;
+//     var email=document.getElementById('email').value;
+//     var age=document.getElementById('age').value;
+//     var text="Name : "+name+"<br> Email"+email+"<br> Age"+age;
+
+//     document.getElementById("myDiv").innerHTML = text;
+
+// }
+
+
+//Task # 02
+
+// function readMore()
+// {
+//     var text=document.getElementById('p1').innerHTML;
+//     text+="error sed odio commodi voluptatum officiis possimus vero nobis dolore nesciunt impedit saepe assumenda laudantium!";
+
+//     document.write(text);
+// }
+
+
+// Chapter 58-67
+ 
+// Task # 01
+
+// 1
+// var assignedId=document.getElementById('main-content');
+
+
+// 2
+// var content=document.getElementById('main-content');
+// for(var i=0;i<content.childNodes.length;i++)
+// {
+//     console.log(content.childNodes[i]);
+// }
+
+
+// 3
+// var allItem=document.getElementsByClassName('render');
+// document.write(allItem.innerHTML);
+
+
+// 4
+// var val=document.getElementById('first-name');
+// val.value="Muhammad Azhan"
+
+
+// 5
+
+// var lname=document.getElementById('last-name');
+// var email=document.getElementById('email');
+// lname.value="Muhammad Azhan"
+// email.value="azhan@gmail.com"
+
+
+// Task # 02
+
+// 1
+
+// var element=document.getElementById('form-content');
+// console.log(element.nodeType);
+
+// 2
+
+// var element=document.getElementById('lastName');
+// console.log(element.nodeType);
+// for(var i=0;i<element.childNodes.length;i++)
+// {
+//     console.log(element.childNodes[i]);
+// }
+
+
+// 4
+
+// var e=document.getElementById('main-content');
+// console.log(e.firstChild);
+// console.log(e.lastChild);
+
+
+// 5
+
+// var e=document.getElementById('lastName');
+// console.log(e.nextSibling);
+// console.log(e.previousSibling);
+
+
+// 6
+
+// var e=document.getElementById('email');
+// console.log(e.parentNode);
+// console.log(e.nodeType);
