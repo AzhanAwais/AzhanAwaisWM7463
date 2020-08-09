@@ -1,3 +1,5 @@
+document.getElementById("btn-next").style.visibility="hidden";
+
 var questions=[
     {
         question:"what is the capital of Turkey?",
@@ -86,6 +88,8 @@ function setActive(e)
         noChange("r2","r3","r4");
         text=para.innerHTML;
         ans=questions[count].answer;
+        document.getElementById("btn-next").style.visibility="visible";
+
     }
     else if(e=='r2')
     {
@@ -94,6 +98,7 @@ function setActive(e)
         noChange("r1","r3","r4");
         text=para.innerHTML;
         ans=questions[count].answer;
+        document.getElementById("btn-next").style.visibility="visible";
     }
     else if(e=='r3')
     {
@@ -102,6 +107,7 @@ function setActive(e)
         noChange("r1","r2","r4");
         text=para.innerHTML;
         ans=questions[count].answer;
+        document.getElementById("btn-next").style.visibility="visible";
     }
     else if(e=='r4')
     {
@@ -110,6 +116,7 @@ function setActive(e)
         noChange("r1","r2","r3");
         text=para.innerHTML;
         ans=questions[count].answer;
+        document.getElementById("btn-next").style.visibility="visible";
     }
 
 }
@@ -125,6 +132,8 @@ function calResult(text,answer)
 
 function showQuestionHeading()
 {
+    document.getElementById("btn-next").style.visibility="hidden";
+
     if(countHeading>=5)
     {
         document.getElementById("btn-next").style.visibility="hidden";
