@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyAgnCil6CLaXA0OzIW-gwyYfUSAX3g9RE0",
+          authDomain: "get-chat-app.firebaseapp.com",
+          databaseURL: "https://get-chat-app.firebaseio.com",
+          projectId: "get-chat-app",
+          storageBucket: "get-chat-app.appspot.com",
+          messagingSenderId: "300057617000",
+          appId: "1:300057617000:web:3d491e1fa8d5c8968e11dd",
+          measurementId: "G-4L3MNC9RZN"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card my-5">
+            <div class="card-header">
+                <div class="img-div">
+                    <img src="mens.png" alt="">
+                </div>
+
+                <div class="owner-div">
+                   <h5 id="owner"></h5>
+                </div>
+            </div>
+    
+            <div id="cardBody" class="card-body">
+                <ul id="message-ul"> </ul>
+            </div>
+            <div class="card-footer d-flex justify-content-between" id="cardfooter">
+              <div class="message-box">
+                  <textarea name="" id="text" placeholder="message"></textarea>
+              </div>
+
+              <div class="btn-box d-flex">
+                <a class="my-send-btn" onclick="sendMessage()">Send</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+              
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+<script src="app.js"></script>
+</body>
+</html>
